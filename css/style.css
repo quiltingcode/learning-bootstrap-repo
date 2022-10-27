@@ -24,6 +24,22 @@ body {
 
 .favourites-container {}
 
+/*Block Dividers*/
+
+.block-divider {
+    width: 150px;
+    height: 5px;
+    border: 0;
+}
+
+.block-divider--orange {
+    background-color: #f0aa12;
+}
+
+.block-divider--short {
+    width: 75px;
+}
+
 /*Jumbotron Header Section*/
 
 .jumbotron {
@@ -46,3 +62,4 @@ body {
     font-style: italic;
     color: #d0d0d0;
 }
+
