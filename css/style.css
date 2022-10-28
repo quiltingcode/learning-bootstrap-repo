@@ -94,6 +94,18 @@ body {
     color: #d0d0d0;
 }
 
+/* Page Headers */
+
+.page-header {
+    margin-bottom: 0;
+    border-bottom: 0;
+    text-align: center;
+}
+
+.page-header h2 {
+    margin-top: 0;
+}
+
 /* Block dividers */
 
 .block-divider {
@@ -108,7 +120,14 @@ body {
 }
 
 .block-divider--short {
-    width: 75px;
+    width: 100px;
+}
+
+/* Content Containers*/
+
+.content-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 }
 
 /* Buttons */
