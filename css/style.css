@@ -2,6 +2,13 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.container-wrapper {}
+
+.container-wrapper--red {
+    background-color: #f05f40;
+    color: white;
+}
+
 .alert-container .col-12{
     padding-left: 0;
     padding-right: 0;
@@ -119,6 +126,10 @@ body {
     background-color: #f05f40;
 }
 
+.block-divider--white {
+    background-color: white;
+}
+
 .block-divider--short {
     width: 100px;
 }
@@ -140,7 +151,7 @@ body {
 
 .btn--red {
     color: white;
-    background-color: #f05f40;
+    background-color: c;
     border-color: #f05f40;
 }
 
